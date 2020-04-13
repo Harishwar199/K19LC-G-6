@@ -1,0 +1,175 @@
+<html>
+<head><style>
+.h1 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+ text-shadow: 2px 2px 5px black;
+}
+.header img{float: left;
+  width: 400px;
+  height: 150px;}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+   padding: 20px 10px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #959392;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style></head>
+<body><div class="h1">
+<h1>HOSTEL ACCOMMODATION SYSTEM </h1></div>
+<hr>
+<div class="header">
+ <img src="LPU.jpg" alt="Logo" >
+<ul>
+  <li><a href="#home">REGISTER</a></li>
+  <li><a href="#news">LOGIN</a></li>
+  <li><a href="#contact">HOME</a></li>
+  </ul>
+</div>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">APPLY 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">NEW</a>
+      <a href="#">EXISTING</a>
+      <a href="#">REVIEW</a>
+	<a href="#">CHECK AVAILABILITY</a>
+    </div>
+	  </div> 
+ <div class="dropdown">
+    <button class="dropbtn">TYPES OF ROOM
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">AC</a>
+      <a href="#">NON-AC</a>
+    </div>
+	  </div>
+ 
+
+ <div class="dropdown">
+    <button class="dropbtn">HOSTEL 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">BOYS HOSTEL</a>
+      <a href="#">GIRLS HOSTEL</a>
+    </div>
+	  </div>
+ <div class="dropdown">
+    <button class="dropbtn">MY ACCOUNT 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    
+	  </div>
+</div>
+
+<hr>
+<p>Hostels provide lower priced, sociable accommodation where guests can rent a bed, usually a bunk bed, in a dormitory and share a bathroom, lounge and sometimes a kitchen. Rooms can be mixed or single, and private rooms may also be available in the 2010s, hostels often have wifi access.<br>
+<br>
+Hostels are often cheaper for both the operator and occupants than hotels, hostels may have long term experience residents who they employ as desk agents or housekeeping staff in exchange for or discounted accommodation.</p>
+<form action="#" method="post">
+  <h4><b>REGISTRATION:-</b></h4><br>
+    <label><b>Roll No:</b></label>
+    <input type="text" placeholder="Enter Roll No">
+
+    <label><b>Branch:</b></label>
+    <input type="text" placeholder="Enter branch" >
+ <label><b>Year:</b></label>
+    <input type="text" placeholder="Enter Year" >
+
+    <label><b>Payment:</b></label>
+    <input type="text" placeholder="Enter Amount">
+<br>
+<h4><b>STATUS<b></h4><br>
+ <label><b>Request Id Status:</b></label>
+    <input type="text" placeholder="Enter Status Id">
+
+    <button type="submit">Submit</button>
+    <label>
+      
+    <button type="button" class="cancelbtn">Cancel</button>
+<hr>
+<h4><b>ABOUT US</b></h4>    
+</form>
+ </body>
+</html>
